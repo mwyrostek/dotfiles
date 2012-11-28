@@ -1,7 +1,6 @@
-
 ## dotjs
 ```bash
-@reboot /home/jumski/dotfiles/vendor/dotjs-ubuntu/bin/djsd -d
+@reboot /home/ss/dotfiles/vendor/dotjs-ubuntu/bin/djsd -d
 ```
 
 
