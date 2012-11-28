@@ -72,7 +72,6 @@ alias favgrep="~/various/favgrep"
 
 alias skype="LD_PRELOAD=/usr/lib32/libv4l/v4l1compat.so skype"
 
-alias ssh-maroko="ssh -t -p 60022 jumski@dev.jumski.com ssh root@127.0.0.1 -p 9999"
 vpnbluair="ssh svnbluair \"echo 'status' | nc localhost 7505\""
 
 function killflash {
