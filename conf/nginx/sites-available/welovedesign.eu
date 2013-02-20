@@ -1,11 +1,11 @@
 server{
   listen 80;
   server_name welovedesign.eu;
-  access_log /home/jumski/work/welovedesign.eu/access.log;
-  error_log /home/jumski/work/welovedesign.eu/error.log;
+  access_log /home/michal/work/welovedesign.eu/access.log;
+  error_log /home/michal/work/welovedesign.eu/error.log;
 
   location / {
-    root /home/jumski/work/welovedesign.eu/;
+    root /home/michal/work/welovedesign.eu/;
     index index.php index.html index.htm;
 
     # this serves static files that exist without running other rewrite tests
@@ -23,7 +23,7 @@ server{
   location ~ \.php$ {
       fastcgi_pass    127.0.0.1:9000;
       fastcgi_index   index.php;
-      fastcgi_param   SCRIPT_FILENAME /home/jumski/work/welovedesign.eu$fastcgi_script_name;
+      fastcgi_param   SCRIPT_FILENAME /home/michal/work/welovedesign.eu$fastcgi_script_name;
       include         fastcgi_params;
   }
 }

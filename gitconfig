@@ -1,6 +1,6 @@
 [user]
-	name = Sebastian Skopp
-	email = sebastian.skopp@gmail.com
+	name = michał wyrostek
+	email = wyrostekmichal@gmail.com
 
 [alias]
   ci = commit
@@ -70,14 +70,14 @@
 [core]
 	autocrlf = input
 	whitespace = trailing-space,cr-at-eol
-	excludesfile = /home/jumski/.gitignore_global
+	excludesfile = /home/michal/.gitignore_global
 [github]
-	user = jumski
+	user = mwyrostek
 [dude]
 	interval = 30
-	icon = /home/jumski/dotfiles/vendor/icons/github-icon.png
+	icon = /home/michal/dotfiles/vendor/icons/github-icon.png
 [init]
-	templatedir = /home/jumski/dotfiles/git_template
+	templatedir = /home/michal/dotfiles/git_template
 
 # url shortcuts
 [url "git@heroku.com:"]
